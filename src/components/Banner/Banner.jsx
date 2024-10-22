@@ -14,7 +14,7 @@ const Banner = () => {
                     <p className="mb-5">
                     Learn and Master Basic Programming, Data Structures, Algorithm, OOP, Database and solve 500+ coding problems to become an exceptionally well world-class Programmer.
                     </p>
-                    <button className="btn btn-primary">Get Started</button>
+                    <button className="px-8 py-3 text-black rounded-full font-bold bg-[#0BE58A] mr-4">Get Started</button>
                     <button className="btn btn-primary">Get Started</button>
                 </div>
             </div>

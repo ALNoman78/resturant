@@ -9,8 +9,15 @@ function App() {
   const [cookData, setCookData] = useState([])
 
   const handleCook = (cook) => {
-    const newCookData = [...cookData , cook]
-    setCookData(newCookData)
+    const isExist = cookData.find(previousRecipe => previousRecipe.recipe_name === cook.recipe_name)
+    if(!isExist){
+      setCookData([...cookData , cook])
+    }else{
+      alert('recipe exist')
+    }
+    // setCookData(newCookData)
+    // const newCookData = [...cookData , cook]
+    
   }
 
   return (
