@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "recipe_name": "Spaghetti Carbonara",
+        "short_description": "A classic Italian pasta dish made with eggs, cheese, pancetta, and pepper.",
+        "preparing_time": "20 minutes",
+        "calories": 400,
+        "img": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?q=80&w=2053&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "id": 2,
+        "recipe_name": "Chicken Caesar Salad",
+        "short_description": "A fresh salad with grilled chicken, and Caesar dressing.",
+        "preparing_time": "15 minutes",
+        "calories": 350,
+        "img": "https://images.unsplash.com/photo-1485921325833-c519f76c4927?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "id": 3,
+        "recipe_name": "Beef Tacos",
+        "short_description": "Tasty tacos filled with seasoned beef, lettuce, cheese, and salsa.",
+        "preparing_time": "25 minutes",
+        "calories": 450,
+        "img": "https://images.unsplash.com/photo-1505576633757-0ac1084af824?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "id": 4,
+        "recipe_name": "Vegetable Stir Fry",
+        "short_description": "A quick and healthy stir fry with mixed vegetables and a savory sauce.",
+        "preparing_time": "20 minutes",
+        "calories": 300,
+        "img": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?q=80&w=2020&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "id": 5,
+        "recipe_name": "Chocolate Chip Cookies",
+        "short_description": "Delicious homemade cookies with gooey chocolate chips.",
+        "preparing_time": "30 minutes",
+        "calories": 200,
+        "img": "https://images.unsplash.com/photo-1484723091739-30a097e8f929?q=80&w=1547&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "id": 6,
+        "recipe_name": "Mango Smoothie",
+        "short_description": "A refreshing smoothie made with fresh mango, yogurt, and honey.",
+        "preparing_time": "10 minutes",
+        "calories": 150,
+        "img": "https://images.unsplash.com/photo-1622532631728-7a0f63b72dd2?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    }
+]
