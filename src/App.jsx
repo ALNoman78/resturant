@@ -8,6 +8,15 @@ import RecipeData from './components/RecipeData/RecipeData'
 function App() {
   const [cookData, setCookData] = useState([])
 
+  const [remove , setRemove ] = useState([])
+
+  const handleRemove = (id) => {
+    const deletedItem = cookData.find((del) => del.id === id)
+    const updateItem = cookData.filter((upData) => upData.id !== id)
+    setCookData(updateItem)
+    setRemove([...remove , deletedItem])
+  }
+
   const handleCook = (cook) => {
     const isExist = cookData.find(previousRecipe => previousRecipe.recipe_name === cook.recipe_name)
     if(!isExist){
@@ -27,7 +36,7 @@ function App() {
         <RecipeHead></RecipeHead>
         <div className='flex justify-between md:w-10/12 mx-auto'>
           <RecipeData handleCook = {handleCook}></RecipeData>
-          <Cook cookData = {cookData}></Cook>
+          <Cook handleRemove = {handleRemove} cookData = {cookData}></Cook>
         </div>
       </main>
     </>
