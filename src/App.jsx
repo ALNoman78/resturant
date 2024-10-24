@@ -7,7 +7,7 @@ import RecipeData from './components/RecipeData/RecipeData'
 
 function App() {
   const [cookData, setCookData] = useState([])
-
+  console.log(cookData);
   const [remove , setRemove ] = useState([])
 
   const handleRemove = (id) => {
